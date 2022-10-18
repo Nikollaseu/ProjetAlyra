@@ -70,7 +70,6 @@ contract Voting is Ownable {
         if (votingStatus == WorkflowStatus(uint(2))) { closeProposalsRegistration();}
         if (votingStatus == WorkflowStatus(uint(3))) { startVotingSession();}
         if (votingStatus == WorkflowStatus(uint(4))) { closeVotingSession();}
-        if (votingStatus == WorkflowStatus(uint(5))) { getWinningProposal();}
     }
 
     //Démarrer la session de proposition de vote
