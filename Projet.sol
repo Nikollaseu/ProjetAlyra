@@ -118,3 +118,4 @@ contract Voting is Ownable {
     function closeVotingSession() private onlyOwner {
         emit VotingSessionEnded();
     }
+    //Je n'ai réussi à faire la partie du décompte de vote.
